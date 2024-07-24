@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, 
+                    rgba(255, 0, 0, 0.5), 
+                    rgba(0, 255, 0, 0.5), 
+                    rgba(0, 0, 255, 0.5)), 
+                url('Background.jpg');
+    
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, hsla(14, 80%, 48%, 0.7), hsla(200, 67%, 47%, 0.7));
+    padding: 20px 0;
+    position: -webkit-sticky;
+    font-weight: bold;
+}
+
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 8px;
+    background: linear-gradient(to right, #28c7bf96, #d127cb8a);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background: linear-gradient(to right, #00fff296, #ff00f78a);
+}
+
+.content {
+    
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.381);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.age-calculator {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+form button {
+    background: linear-gradient(to right, hsl(14, 56%, 78%), hsl(200, 50%, 70%));
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: linear-gradient(to right, hsla(14, 79%, 55%, 0.7), hsl(200, 73%, 54%));
+
+}
+#result {
+
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}

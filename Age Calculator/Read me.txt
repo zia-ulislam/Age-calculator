@@ -1,0 +1,47 @@
+# Age Calculator
+Welcome to the Age Calculator project repository! This project is an interactive and aesthetically designed web-based tool that allows users to calculate their age based on their date of birth. It also provides a countdown to the next birthday, displaying the time remaining in years, months, and days.
+
+## Features
+
+- **User-Friendly Input**: Separate input fields for day, month, and year, with an integrated calendar component for easy date selection.
+- **Real-Time Calculation**: Calculates the user's age in years, months, and days as of today's date.
+- **Next Birthday Countdown**: Displays the date of the next birthday and the time remaining until the next birthday in years, months, and days.
+- **Responsive Design**: Ensures optimal user experience across various devices, including desktops, tablets, and mobile phones.
+- **Aesthetic Design**: Beautifully designed with blended colors, a background image, and clear, readable typography.
+
+## Technologies Used
+
+- **HTML**: For the basic structure of the web page.
+- **CSS**: For styling the page, including the use of linear gradients and responsive design principles.
+- **JavaScript**: For calculating the age and handling the user input and interactions.
+
+## Usage
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/your-username/age-calculator.git
+    ```
+
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd age-calculator
+    ```
+
+3. **Open `index.html` in Your Browser** to view and interact with the Age Calculator.
+
+## How It Works
+
+- **User Input**: Users can enter their date of birth either manually or through a calendar component.
+- **Age Calculation**: Upon submission, the JavaScript function calculates the user's current age in years, months, and days.
+- **Next Birthday**: The script also calculates the date of the next birthday and the remaining time until that date, displaying this information prominently.
+
+## Code Structure
+
+- **index.html**: The main HTML file that contains the structure of the web page.
+- **styles.css**: The CSS file that contains styles for the web page.
+- **script.js**: The JavaScript file that contains the logic for calculating the age and the next birthday.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas or suggestions to improve this project, feel free to fork the repository and submit a pull request.
+
